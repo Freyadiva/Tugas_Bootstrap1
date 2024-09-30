@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami</title>
+    <!-- Tambahkan link ke CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1>Kontak Kami</h1>
+
+    <form action="/action_page.php">
+        <!-- Input Nama -->
+        <div class="mb-3">
+            <label for="nama" class="form-label">Nama:</label>
+            <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan nama">
+        </div>
+
+        <!-- Input Email -->
+        <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan email">
+        </div>
+
+        <!-- Input Jenis Kelamin -->
+        <div class="mb-3">
+            <label class="form-label">Jenis Kelamin:</label><br>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="laki" name="jen_kelamin" value="Laki-laki">
+                <label for="laki" class="form-check-label">Laki-laki</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="perempuan" name="jen_kelamin" value="Perempuan">
+                <label for="perempuan" class="form-check-label">Perempuan</label>
+            </div>
+        </div>
+
+        <!-- Input Hobby -->
+        <div class="mb-3">
+            <label class="form-label">Hobi:</label><br>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="hobi1" name="hobi1" value="gambar">
+                <label for="hobi1" class="form-check-label">Menggambar</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="hobi2" name="hobi2" value="main">
+                <label for="hobi2" class="form-check-label">Bermain game</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="hobi3" name="hobi3" value="foto">
+                <label for="hobi3" class="form-check-label">Fotografi</label>
+            </div>
+        </div>
+
+        <!-- Tombol Submit dan Reset -->
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="reset" class="btn btn-secondary">Reset</button>
+    </form>
+</div>
+
+<!-- Tambahkan link ke JavaScript Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
